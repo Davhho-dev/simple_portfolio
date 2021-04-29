@@ -1,0 +1,89 @@
+/* removes the white space between the main elements */
+* {
+  margin: 0;
+}
+
+header, footer{
+  text-align: center;
+  background-color: #2B7A78;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: Pacifico;
+}
+
+header p {
+  font-size: 20px;
+  font-family: Georgia;
+  line-height: 25px;
+}
+
+h1, header p {
+  color: white;
+}
+
+/* added padding to create distance between header and main */
+main {
+  background-color: #3AAFA9;
+  padding: 40px;
+}
+
+/* centered the image, grayscale, and reduced the size */
+img {
+  filter: grayscale();
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+/* creating consistent space (top and bottom) between the <div> */
+.introduction, .about, .contact{
+  padding: 50px;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+}
+
+/* creating consistent properties across all paragraphs - fonts, color, size */
+.introduction p, .about p, .contact p, ul, ol{
+  color: #17252A;
+  font-family: Georgia;
+  font-size: 18px;
+  text-align: justify;
+  padding-left: 30%;
+}
+
+li {
+  margin: 10px;
+}
+
+/* creates the line */
+hr {
+  width: 50%;
+  margin-left: 25%;
+}
+
+/* reduces the width of the <p> - makes it look neater */
+.introduction p, .about p, .contact p{
+  width: 40%;
+}
+
+iframe {
+  margin: 10px;
+  padding-left: 25%;
+}
+
+/* unvisited link */
+a:link {color:blue;}
+/* visited link */
+a:visited {color: purple;}
+/* hovering over link */
+a:hover {color: red;} 
+/* clicking on link */
+a:active {color: yellow};
+
