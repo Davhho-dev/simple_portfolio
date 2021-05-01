@@ -3,11 +3,13 @@
   margin: 0;
 }
 
+/* aligning the header and footer to the center and displaying the same background color */
 header, footer{
   text-align: center;
   background-color: #2B7A78;
 }
 
+/* utilized the Google API font */
 h1 {
   font-size: 50px;
   font-family: Pacifico;
@@ -73,6 +75,7 @@ hr {
   width: 40%;
 }
 
+/* adjusting the position of the Google Maps */
 iframe {
   margin: 10px;
   padding-left: 25%;
