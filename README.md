@@ -1,32 +1,33 @@
-#Simple Portfolio
-##David Ho
+# Simple Portfolio
+
+## David Ho
 
 A simple portfolio using the basics of HTML and CSS. Very simple
 
 
-##Header
+## Header
 Utilized a specific font for the name from [Google's font API]
 
-##Main
+## Main
 Uploaded David Ho head shot portrait ![headshot portrait](images/head_shot.png)
 
 Things done to the image
 * grayscaled 
 * since it was a square image, putting the border radius to 50% created a round image
 
-##Article
+## Article
 The article container was broken up into three main parts (in this order)
 1. introduction
 2. about
 3. contact
 
-###Introduction
+### Introduction
 A quick snippet of who I am and why I am passionate with web development
 
-###About
+### About
 Provided a detailed description of who I am
 
-###Contact
+### Contact
 List different ways to see my work
 1. [LinkedIn]
 2. [GitHub]
@@ -38,6 +39,8 @@ Utilized google's map iframe to implement a view of Austin, Texas
 Research sites (used to help figure out certain element properties)
 https://www.w3schools.com/css/
 
-[Linkedin] <https://www.linkedin.com/in/david-ho-83a079b6/>
-[GitHub] <https://github.com/Davhho-dev/>
-[Google's font API] <https://fonts.googleapis.com/css?family=Pacifico>
+[//]: # (These are reference links - will not be shown in markdown file. Referenced: https://dillinger.io/ - for help
+
+        [Linkedin] <https://www.linkedin.com/in/david-ho-83a079b6/>
+        [GitHub] <https://github.com/Davhho-dev/>
+        [Google's font API] <https://fonts.googleapis.com/css?family=Pacifico>
